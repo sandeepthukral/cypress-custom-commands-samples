@@ -1,0 +1,23 @@
+{
+  "name": "cypress-custom-commands-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepthukral/cypress-custom-commands-samples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepthukral/cypress-custom-commands-samples/issues"
+  },
+  "homepage": "https://github.com/sandeepthukral/cypress-custom-commands-samples#readme",
+  "dependencies": {
+    "cypress": "^7.2.0"
+  }
+}
