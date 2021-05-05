@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .center {
+            text-align: center;
+        }
+        div.border {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 230px;
+            border: 1px solid;
+            margin: 20px 0 0 20px;
+        }
+        .icon-trash:before {
+            content: "\78";
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        button {
+            border-color: #e0e0e0;
+            background-color: #fff;
+            color: #191919;
+            float: right!important;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<div class="border center">
+    <p id="text">&nbsp;</p>
+</div>
+
+<div class="border">
+    <h3>Click the report button</h3>
+    <ul>
+        <li>
+            <div class="clearfix">
+                <a href="#">Custom Report 1</a>
+                <button onclick="document.getElementById('text').innerText='Clicked 1'"><i class="icon-trash"></i></button>
+            </div>
+        </li>
+        <li>
+            <div class="clearfix">
+                <a href="#">Custom Report 2</a>
+                <button onclick="document.getElementById('text').innerText='Clicked 2'"><i class="icon-trash"></i></button>
+            </div>
+        </li>
+        <li>
+            <div class="clearfix">
+                <a href="#">Custom Report 3</a>
+                <button onclick="document.getElementById('text').innerText='Clicked 3'"><i class="icon-trash"></i></button>
+            </div>
+        </li>
+    </ul>
+</div>
